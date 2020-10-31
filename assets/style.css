@@ -1,81 +1,97 @@
-
-h1 { 
-    color: red; text-align: lef;
-
-}
-
-
-html {
-    background-color:#c0c0c0;
-    background-image: url(../assets/images/green_glitters.jpg);
+html{
+    background-image: url("/assets/images/greene.jpg");
     background-position: center;
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: springgreen;
 }
 
 
 
-id="Jondoe" { color:black }
- .content { color:violet; font-family: serif; 
-    text-align: justify; 
-    line-height: normal; 
-    font-size: normalxí;
-    font-weight: normal;
-    text-decoration-color: tomato;
-    max-width: 75%;
+@font-face {
+    font-family: "Rajdan";
+    src: url("/assets/fonts/Rajdhani-Light.ttf");
+    font-weight: 400;
+    font-stretch: extra-condensed;
 }
 
-    .bold {font-weight: bolder;}
+.container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: double;
+    background-color: rgb(12, 145, 12);
+    color:white;
+    box-shadow: 10px 10px 10px black;
+    font-family: "Rajdan";
+    font-size: 19px;
+    font: bold;
+    font-weight: ;
+} 
 
- class="img-div" {background-color: violet;}
-.light {background-color: rgb(75, 57, 1);}
-
-img {
-width: 14%;
-margin: 1%;
-box-shadow: 10px 10px 10px black;
-}
-
-.urlap-div {
-    padding: 15px;
-    border:solid 1px; color:#C0C0C0;
-    box-shadow: 0 0 2px; #7777777;
-    display:inline-block;
-}
-
-.urlap-div input {
-    padding: 3px;
-    display: block;
-    margin-bottom: 7px;
-}
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 13px;
-    font-size: 16px;
-    border: solid; 
-}
-.dropdown {
-    position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
+.links a{
     color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    font:bold;
 }
-.menu:hover .dropdown-content {display: block;}
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.header {
+    color:blanchedalmond;
+    font-family:"Rajdan" ;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: left;
+    border-top: solid;
+}
+
+h3 {
+    font-family: Rajdan;
+    text-align: justify;
+    color:blanchedalmond;
+    font-size: 30px;
+    max-width: 94%;
+    font-weight: 600;
+}
+
+img{
+    width: 28%;
+    box-shadow: 10px 10px 10px black;
+    margin: 30px 30px 30px;}
+
+.boxed {
+    width: 30%;
+    display:inline;
+    font-size: 30px;
+    font-family: Rajdan;
+    text-align:end;
+    font-weight: bolder;
+    border: double;
+    position: relative;
+    margin: 10%;
+    box-shadow: 10px 10px 10px black ;
+    background-color: rgb(25, 209, 49);  
+}
+
+.gotop {
+    position: relative;
+    
+}
+.TopBtn {
+    position: absolute;
+    bottom: 00px;
+    right: 0px;
+    margin: 10px;
+    padding: 10px;
+    border: double;
+    background-color: rgb(12, 145, 12);
+    box-shadow: 10px 10px 10px black;
+}
+
+.TopBtn a {
+    color: black;
+    font: bold;
+    font-size: 19px;
+    font-family: "Rajdan";
+}
