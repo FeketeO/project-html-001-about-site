@@ -7,7 +7,6 @@ html{
 }
 
 
-
 @font-face {
     font-family: "Rajdan";
     src: url("/assets/fonts/Rajdhani-Light.ttf");
@@ -55,10 +54,52 @@ h3 {
     font-weight: 600;
 }
 
-img{
+p {
+    font-family: Rajdan;
+    text-align: justify;
+    color:blanchedalmond;
+    font-size: 25px;
+    max-width: 94%;
+    font-weight: 600;
+}
+
+.main {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.repi {
+    max-width: 28%;
+    box-shadow: 10px 10px 10px black;
+    margin: 30px 30px 30px;
+}
+
+#firstpg{
     width: 28%;
     box-shadow: 10px 10px 10px black;
-    margin: 30px 30px 30px;}
+    margin: 30px 30px 30px;
+}
+
+.gallery {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+#galimg {
+    width: 29%;
+    box-shadow: 10px 10px 10px black;
+    margin: 30px 30px 30px;
+}
+
+.teamabout {
+    display: inline-block;
+    padding: 10px;
+}
+#about {
+    width: fit-content;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+    margin: 30px 30px 30px;
+}
 
 .boxed {
     width: 30%;
@@ -74,13 +115,58 @@ img{
     background-color: rgb(25, 209, 49);  
 }
 
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.fieldset {
+    font-family: Rajdan;
+    text-align: justify;
+    color:blanchedalmond;
+    font-size: 20px;
+    font-weight: 500;  
+    border: double rgb(20, 80, 15);
+
+}
+.urlap {
+    font-family: Rajdan;
+    text-align: justify;
+    color:blanchedalmond;
+    font-size: 20px;
+    font-weight: 500; 
+    bottom: 30px; 
+}
+
+input[type=text], [type=email], textarea {
+    width: 20%;
+    padding: 8px;
+    border: double rgb(7, 100, 7);
+    border-radius: 10px;
+    box-sizing: content-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+.submit-btn {
+    position: relative;
+    bottom: 00px;
+    right: 0px;
+    margin: 10px;
+    padding: 10px;
+    border: double;
+    background-color: rgb(12, 145, 12);
+    box-shadow: 10px 10px 10px black;
+}
+
 .gotop {
     position: relative;
-    
 }
 .TopBtn {
     position: absolute;
-    bottom: 00px;
+    bottom: 10px;
     right: 0px;
     margin: 10px;
     padding: 10px;
@@ -95,3 +181,11 @@ img{
     font-size: 19px;
     font-family: "Rajdan";
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
