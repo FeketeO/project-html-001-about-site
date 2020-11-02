@@ -55,7 +55,7 @@ h3 {
 }
 
 p {
-    font-family: Rajdan;
+   font-family: Rajdan;
     text-align: justify;
     color:blanchedalmond;
     font-size: 25px;
@@ -79,7 +79,19 @@ p {
     box-shadow: 10px 10px 10px black;
     margin: 30px 30px 30px;
 }
+/* mobile view. Screen width is less or equal to 576 px)*/
+@media screen and (max-width: 576px) {
+    #firstpg {width:100%;
+        font-weight: 600;
 
+    }
+    }
+
+/* Tablet view*/
+@media screen and (min-width: 577px) and (max-width:768) {
+    #firstpg {width:100%;
+    }
+}
 .gallery {
     display: inline-block;
     margin-bottom: 60px;
@@ -102,14 +114,18 @@ p {
 }
 
 .boxed {
-    width: 30%;
-    display:inline;
-    font-size: 30px;
+    display: inline-block;
+    box box-sizing: border-box;
+    width: 12%;
+    margin:5%;
+    font-size: 2em;
     font-family: Rajdan;
-    text-align:end;
+    height: 5em;
+    line-height: 5em;
+    text-align:center;
     font-weight: bolder;
     border: double;
-    position: relative;
+    border-radius: 3px;
     margin: 10%;
     box-shadow: 10px 10px 10px black ;
     background-color: rgb(25, 209, 49);  
@@ -119,6 +135,8 @@ p {
 .box {
     display: flex;
     align-items: center;
+    border-bottom: solid 1px blanchedalmond;
+    margin-bottom: 2em;
 }
 
 .fieldset {
@@ -128,6 +146,7 @@ p {
     font-size: 20px;
     font-weight: 500;  
     border: double rgb(20, 80, 15);
+    
 
 }
 .urlap {
@@ -137,7 +156,7 @@ p {
     font-size: 20px;
     font-weight: 500; 
     bottom: 30px; 
-}
+    }
 
 input[type=text], [type=email], textarea {
     width: 20%;

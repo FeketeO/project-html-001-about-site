@@ -12,13 +12,13 @@
 
 <body>
     <div class="container">
-        <nav class="menu"> Menü
+        <nav id="menu"> Menü
             <div class="topright">
                 <div class="links">
                     <div><a target="blank" href="index.html">Home</a></div>
-                    <div><a target="blank" href="Works.html">Work</a></div>
-                    <div><a target="blank" href="Gallery.html">Gallery</a></div>
-                    <div><a target="blank" href="About.html">About</a></div>
+                    <div><a target="blank" href="Works.html">Munkáink</a></div>
+                    <div><a target="blank" href="Gallery.html">Galéria</a></div>
+                    <div><a target="blank" href="About.html">Rólunk</a></div>
                 </div>
             </div>
         </nav>
@@ -29,7 +29,7 @@
     </header>
     <section>
         <div class="teamabout">
-            <img id="about" src="assets/images/adventure-backlit-community-dawn-wallpaper-preview.jpg" alt="no bonus">
+            <img id="about" src="assets/images/team2.jpg" alt="no bonus">
         </div>
 
     </section>
@@ -49,11 +49,11 @@
                 <ul>
                     <h3>
                         <li>kerttervezés</li>
-                        <li>lvadult kertek újragondolása</li>
+                        <li>elvadult kertek újragondolása</li>
                         <li>pergolák építése</li>
                         <li>kerti tavak létesítése</li>
                         <li>3D-s terv előállítása, prezentálása</li>
-                        <li>anygagok beszerzése és leszállítása</li>
+                        <li>anyagagok beszerzése és leszállítása</li>
                         <li>növények beszerzése és leszállítása</li>
                         <li>kertépítés</li>
                         <li>kertfenntartás</li>
@@ -67,18 +67,24 @@
                 <h3>
                     <li>Kiszállás (megbízás esetén díjtalan), a terület felmérése</li>
                     <li>Igények felmérése</li>
-                    <li>Kertterv elkészítése a terület adottságai és a tulajdonos tervei fényében</li>
+                    <li>Kertterv elkészítése a terület adottságai és a tulajdonos elképzelései fényében</li>
                     <li>A terv bemutatása</li>
                     <li>Kivitelezés</li>
-                    <li>Átadás(átvétel</li>
+                    <li>Átadás/átvétel</li>
                     <p>************************************************</p>
                     <li>Kertfenntartás (igény szerint)</li>
 
                 </h3>
-
             </ol>
             </p>
     </main>
+    </section>
+    <section>
+        <article>
+            <h3>
+                Amennyiben felkeltettük érdeklődését, várjuk jelentkezését! Velünk csak nyerhet!
+            </h3>
+        </article>
     </section>
 
     <footer>
@@ -89,7 +95,7 @@
               <form action="action_page.php">
                     <div>
                         <label for="name">Név *</label><br><br>
-                        <input id="name" name="name" type="text" required="required" placeholder="Teljes név..">
+                        <input id="name" name="name" type="text" min="5" minlength="5" required="required" placeholder="Teljes név..">
                     </div>
                     <div>
                         <label for="email">E-mail *</label><br><br>
@@ -97,7 +103,7 @@
                     </div>
                     <div>
                         <label for="message">Üzenet *</label><br><br>
-                        <textarea id="message" name="message" rows="5" type="text" required="required" 
+                        <textarea id="message" name="message" rows="5" type="text" minlength="10" required="required" 
                         placeholder="Írjon nekünk"></textarea>
                     </div>
             </div>
@@ -113,7 +119,7 @@
         <div class="gotop">
             <nav>
                 <button onclick="topFunction" class="TopBtn" title="Go to top">
-                    <a href="/About.html">Vissza a lap tetejére</a>
+                    <a href="#menu">Vissza a lap tetejére</a>
                 </button>
             </nav>
         </div>
